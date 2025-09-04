@@ -1,0 +1,52 @@
+* {
+    font-family: 'Prompt', sans-serif;
+    color: #eae6e6;
+}
+
+body {
+    background-color: #1c1c1c;
+}
+
+input,
+button {
+    padding: 10px;
+}
+
+input {
+    width: 60%;
+    margin: 10px;
+    color: #1c1c1c;
+}
+
+button {
+    cursor: pointer;
+    background: linear-gradient(90deg, darkblue 0%, lightblue 100%);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    transition: 0.5s ease;
+    padding: 13px;
+}
+
+button:hover {
+    transform: scale(1.1, 1.1);
+    opacity: 70%;
+}
+
+.answer {
+    padding: 10px;
+    position: relative;
+    top: 225px;
+    font-size: 20px;
+    opacity: 70%;
+}
+
+.question {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+h1 {
+    font-size: 50px;
+}
